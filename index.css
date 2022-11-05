@@ -8,6 +8,10 @@ body {
     background-color: #ddd;
 }
 
+.row {
+    display: flex;
+}
+
 .box {
     height: 96px;
     width: 96px;
