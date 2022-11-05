@@ -13,7 +13,17 @@ body {
 }
 
 .box {
-    height: 96px;
-    width: 96px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
     border: 2px solid black;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+}
+.box-x {
+    color: red;
+}
+.box-o {
+    color: blue;
 }
